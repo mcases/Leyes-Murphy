@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+body {
+  background-color:hsl(0, 0%, 80%);
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+p.p1 {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  border: hsl(41, 96%, 11%) 2px solid;
+  background-color: hsl(40, 94%, 50%);
+  text-align: center;
+}
+
+p.p2 {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  width: 35%;
+  height: 30%;
+  z-index: 2;
+  border: hsl(120, 97%, 15%) 4px solid;
+  background-color: hsl(83, 98%, 49%);
+  text-align: center;
+}
+
+p.p3 {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(44, 97%, 48%) 4px solid;
+  background-color: hsl(66, 93%, 49%);
+  text-align: left;
+}
+
+p.p4 {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(214, 97%, 47%) 4px solid;
+  background-color: hsl(180, 97%, 47%);
+  text-align: right;
+}
+
+p.p5 {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(300, 95%, 36%) 4px solid;
+  background-color: hsl(300, 83%, 84%);
+  text-align: left;
+}
+
+p.p6 {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(0, 96%, 10%) 4px solid;
+  background-color: hsl(0, 97%, 25%);
+  text-align: right;
+}
+
+p:hover {
+  z-index: 2;
+}
